@@ -1,0 +1,231 @@
+{
+  "info": {
+    "_postman_id": "wasfati-api-collection",
+    "name": "Wasfati API",
+    "description": "Collection complète pour l'API REST Wasfati - Application de recettes marocaines",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080/api",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Login (Admin)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.token) {",
+                  "    pm.collectionVariables.set('token', jsonData.token);",
+                  "    console.log('Token sauvegardé:', jsonData.token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"admin123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "login"]
+            },
+            "description": "Connexion administrateur — le token JWT est automatiquement sauvegardé dans la variable {{token}}"
+          }
+        },
+        {
+          "name": "Login (User)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.token) {",
+                  "    pm.collectionVariables.set('token', jsonData.token);",
+                  "    console.log('Token sauvegardé:', jsonData.token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"user\",\n  \"password\": \"user123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "login"]
+            }
+          }
+        },
+        {
+          "name": "Register",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.token) {",
+                  "    pm.collectionVariables.set('token', jsonData.token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"nouveau_user\",\n  \"email\": \"nouveau@wasfati.ma\",\n  \"password\": \"motdepasse123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "register"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Recettes",
+      "item": [
+        {
+          "name": "Lister toutes les recettes (page 1)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/recettes?page=0&size=6",
+              "host": ["{{baseUrl}}"],
+              "path": ["recettes"],
+              "query": [
+                { "key": "page", "value": "0" },
+                { "key": "size", "value": "6" }
+              ]
+            },
+            "description": "Retourne une page de recettes (pas d'authentification requise)"
+          }
+        },
+        {
+          "name": "Détail d'une recette",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/recettes/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["recettes", "1"]
+            }
+          }
+        },
+        {
+          "name": "Rechercher des recettes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/recettes/search?query=poulet&page=0&size=6",
+              "host": ["{{baseUrl}}"],
+              "path": ["recettes", "search"],
+              "query": [
+                { "key": "query", "value": "poulet" },
+                { "key": "page", "value": "0" },
+                { "key": "size", "value": "6" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Créer une recette (auth requis)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"titre\": \"Msemen Marocain\",\n  \"description\": \"Crêpes feuilletées marocaines dorées, parfaites avec du miel et du beurre au petit-déjeuner.\",\n  \"imgLink\": \"https://images.unsplash.com/photo-1574959936476-43a8a7e2f1c5?w=600&q=80\",\n  \"tempsMinute\": 60,\n  \"ingredients\": [\n    { \"nom\": \"Farine\", \"quantite\": \"500g\" },\n    { \"nom\": \"Semoule fine\", \"quantite\": \"100g\" },\n    { \"nom\": \"Eau tiède\", \"quantite\": \"300ml\" },\n    { \"nom\": \"Sel\", \"quantite\": \"1 c.à.c\" },\n    { \"nom\": \"Huile végétale\", \"quantite\": \"4 c.à.s\" }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recettes",
+              "host": ["{{baseUrl}}"],
+              "path": ["recettes"]
+            },
+            "description": "Nécessite un token JWT valide. Exécutez d'abord 'Login' pour obtenir le token."
+          }
+        },
+        {
+          "name": "Modifier une recette (auth requis)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"titre\": \"Tajine de Poulet aux Olives et Citron\",\n  \"description\": \"Un tajine savoureux et parfumé aux épices marocaines avec des olives marinées et du citron confit. Version améliorée.\",\n  \"imgLink\": \"https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80\",\n  \"tempsMinute\": 95,\n  \"ingredients\": [\n    { \"nom\": \"Poulet entier\", \"quantite\": \"1 pièce\" },\n    { \"nom\": \"Olives vertes\", \"quantite\": \"250g\" },\n    { \"nom\": \"Citron confit\", \"quantite\": \"3 pièces\" }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recettes/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["recettes", "1"]
+            }
+          }
+        },
+        {
+          "name": "Supprimer une recette (auth requis)",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/recettes/9",
+              "host": ["{{baseUrl}}"],
+              "path": ["recettes", "9"]
+            },
+            "description": "Supprime la recette avec l'id 9 (celle créée par le test POST)"
+          }
+        }
+      ]
+    }
+  ]
+}

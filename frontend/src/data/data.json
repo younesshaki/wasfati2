@@ -1,0 +1,543 @@
+{
+  "content": [
+    {
+      "titre": "Tajine de Poulet aux Olives",
+      "description": "Un tajine savoureux et parfumé aux épices marocaines avec des olives marinées et du citron confit. Un classique indémodable de la cuisine marocaine.",
+      "tempsMinute": 90,
+      "imgLink": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Poulet entier", "quantite": "1" },
+        { "nom": "Olives vertes", "quantite": "200g" },
+        { "nom": "Citrons confits", "quantite": "2" },
+        { "nom": "Oignons", "quantite": "2" },
+        { "nom": "Gousses d'ail", "quantite": "3" },
+        { "nom": "Gingembre moulu", "quantite": "1 c.c." },
+        { "nom": "Curcuma", "quantite": "1 c.c." },
+        { "nom": "Huile d'olive", "quantite": "3 c.s." },
+        { "nom": "Coriandre fraîche", "quantite": "1 bouquet" },
+        { "nom": "Sel et poivre", "quantite": "selon goût" }
+      ]
+    },
+    {
+      "titre": "Couscous Royal",
+      "description": "Le couscous royal traditionnel avec sept légumes, viande d'agneau tendre et merguez grillées. Un festin familial incontournable servi les vendredis.",
+      "tempsMinute": 120,
+      "imgLink": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Semoule de couscous", "quantite": "500g" },
+        { "nom": "Viande d'agneau", "quantite": "300g" },
+        { "nom": "Merguez", "quantite": "4" },
+        { "nom": "Carottes", "quantite": "2" },
+        { "nom": "Courgettes", "quantite": "2" },
+        { "nom": "Navet", "quantite": "1" },
+        { "nom": "Oignon", "quantite": "1" },
+        { "nom": "Pois chiches", "quantite": "200g" },
+        { "nom": "Ras el hanout", "quantite": "1 c.c." },
+        { "nom": "Beurre", "quantite": "50g" }
+      ]
+    },
+    {
+      "titre": "Salade Marocaine",
+      "description": "Une salade fraîche et colorée de tomates, concombres et poivrons assaisonnée d'huile d'argan et de citron. Parfaite en entrée ou en accompagnement.",
+      "tempsMinute": 15,
+      "imgLink": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+      "categorie": "Salades",
+      "ingredients": [
+        { "nom": "Tomates", "quantite": "3" },
+        { "nom": "Concombre", "quantite": "1" },
+        { "nom": "Poivron vert", "quantite": "1" },
+        { "nom": "Oignon rouge", "quantite": "1" },
+        { "nom": "Menthe fraîche", "quantite": "quelques feuilles" },
+        { "nom": "Huile d'argan", "quantite": "2 c.s." },
+        { "nom": "Citron", "quantite": "1" },
+        { "nom": "Sel et poivre", "quantite": "selon goût" }
+      ]
+    },
+    {
+      "titre": "Harira",
+      "description": "La soupe traditionnelle marocaine à base de tomates, lentilles et pois chiches, parfumée au safran et à la coriandre. Incontournable pour rompre le jeûne.",
+      "tempsMinute": 60,
+      "imgLink": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+      "categorie": "Soupes",
+      "ingredients": [
+        { "nom": "Tomates pelées", "quantite": "400g" },
+        { "nom": "Lentilles rouges", "quantite": "200g" },
+        { "nom": "Pois chiches", "quantite": "100g" },
+        { "nom": "Vermicelle", "quantite": "100g" },
+        { "nom": "Oignon", "quantite": "1" },
+        { "nom": "Safran", "quantite": "1 pincée" },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Farine", "quantite": "2 c.s." },
+        { "nom": "Coriandre et persil", "quantite": "1 bouquet" },
+        { "nom": "Jus de citron", "quantite": "1" }
+      ]
+    },
+    {
+      "titre": "Msemen au Miel",
+      "description": "Les crêpes feuilletées marocaines croustillantes à l'extérieur et moelleuses à l'intérieur, servies avec du miel et du beurre fondant.",
+      "tempsMinute": 45,
+      "imgLink": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+      "categorie": "Petit-déjeuner",
+      "ingredients": [
+        { "nom": "Farine", "quantite": "500g" },
+        { "nom": "Semoule fine", "quantite": "100g" },
+        { "nom": "Levure", "quantite": "1 c.c." },
+        { "nom": "Sel", "quantite": "1 c.c." },
+        { "nom": "Sucre", "quantite": "1 c.c." },
+        { "nom": "Eau tiède", "quantite": "300ml" },
+        { "nom": "Huile de tournesol", "quantite": "4 c.s." },
+        { "nom": "Beurre fondu", "quantite": "50g" },
+        { "nom": "Miel", "quantite": "pour servir" }
+      ]
+    },
+    {
+      "titre": "Kefta Mkaouara",
+      "description": "Boulettes de viande épicées mijotées dans une sauce tomate avec des œufs pochés. Un plat convivial que l'on déguste avec du pain marocain.",
+      "tempsMinute": 50,
+      "imgLink": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Viande hachée", "quantite": "500g" },
+        { "nom": "Oignons", "quantite": "2" },
+        { "nom": "Tomates pelées", "quantite": "500g" },
+        { "nom": "Œufs", "quantite": "4" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Paprika", "quantite": "1 c.c." },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Persil et coriandre", "quantite": "1 bouquet" },
+        { "nom": "Huile d'olive", "quantite": "3 c.s." }
+      ]
+    },
+    {
+      "titre": "Bastilla au Poulet",
+      "description": "La célèbre tourte marocaine feuilletée sucrée-salée farcie de poulet épicé, d'œufs brouillés et d'amandes, saupoudrée de sucre glace et cannelle.",
+      "tempsMinute": 150,
+      "imgLink": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Poulet", "quantite": "1kg" },
+        { "nom": "Feuilles de brick", "quantite": "500g" },
+        { "nom": "Amandes effilées", "quantite": "200g" },
+        { "nom": "Œufs", "quantite": "6" },
+        { "nom": "Oignons", "quantite": "2" },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Safran", "quantite": "1 pincée" },
+        { "nom": "Sucre glace", "quantite": "2 c.s." },
+        { "nom": "Beurre", "quantite": "80g" }
+      ]
+    },
+    {
+      "titre": "Chebakia",
+      "description": "Pâtisseries en forme de fleur, frites et enrobées de miel parfumé à la fleur d'oranger, parsemées de graines de sésame. Typiques du mois de Ramadan.",
+      "tempsMinute": 90,
+      "imgLink": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&q=80",
+      "categorie": "Desserts",
+      "ingredients": [
+        { "nom": "Farine", "quantite": "500g" },
+        { "nom": "Sésame grillé", "quantite": "100g" },
+        { "nom": "Amandes en poudre", "quantite": "100g" },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Anis", "quantite": "1 c.c." },
+        { "nom": "Eau de fleur d'oranger", "quantite": "3 c.s." },
+        { "nom": "Miel", "quantite": "500g" },
+        { "nom": "Huile de friture", "quantite": "pour frire" }
+      ]
+    },
+    {
+      "titre": "Bissara",
+      "description": "Soupe épaisse et nourrissante de fèves sèches à l'huile d'olive et cumin, un plat humble et délicieux du nord du Maroc, servi avec du pain.",
+      "tempsMinute": 60,
+      "imgLink": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=600&q=80",
+      "categorie": "Soupes",
+      "ingredients": [
+        { "nom": "Fèves sèches pelées", "quantite": "400g" },
+        { "nom": "Gousses d'ail", "quantite": "6" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Paprika", "quantite": "1 c.c." },
+        { "nom": "Huile d'olive", "quantite": "4 c.s." },
+        { "nom": "Sel", "quantite": "selon goût" }
+      ]
+    },
+    {
+      "titre": "Amlou",
+      "description": "Pâte traditionnelle d'amandes grillées mélangées à l'huile d'argan et au miel. Un délice du matin à tartiner sur du pain ou du msemen.",
+      "tempsMinute": 20,
+      "imgLink": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
+      "categorie": "Condiments",
+      "ingredients": [
+        { "nom": "Amandes non pelées", "quantite": "200g" },
+        { "nom": "Huile d'argan", "quantite": "4 c.s." },
+        { "nom": "Miel", "quantite": "3 c.s." },
+        { "nom": "Sel", "quantite": "1 pincée" }
+      ]
+    },
+    {
+      "titre": "Tajine de Poisson Chermoula",
+      "description": "Filets de poisson blanc marinés dans la chermoula épicée, cuits en tajine avec des pommes de terre et des poivrons colorés. Saveurs de l'Atlantique.",
+      "tempsMinute": 75,
+      "imgLink": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Filets de poisson blanc", "quantite": "800g" },
+        { "nom": "Pommes de terre", "quantite": "4" },
+        { "nom": "Poivrons", "quantite": "2" },
+        { "nom": "Tomates", "quantite": "2" },
+        { "nom": "Coriandre", "quantite": "1 bouquet" },
+        { "nom": "Ail", "quantite": "4 gousses" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Paprika", "quantite": "1 c.c." },
+        { "nom": "Olives vertes", "quantite": "100g" }
+      ]
+    },
+    {
+      "titre": "Citrons Confits Maison",
+      "description": "Citrons conservés dans le sel et leur propre jus pendant plusieurs semaines. Indispensables pour parfumer tajines, salades et marinades.",
+      "tempsMinute": 30,
+      "imgLink": "https://images.unsplash.com/photo-1591073113125-e46713c829ed?w=600&q=80",
+      "categorie": "Condiments",
+      "ingredients": [
+        { "nom": "Citrons bio", "quantite": "10" },
+        { "nom": "Gros sel", "quantite": "200g" },
+        { "nom": "Eau", "quantite": "selon besoin" }
+      ]
+    },
+    {
+      "titre": "Briouates au Fromage",
+      "description": "Petits feuilletés triangulaires croustillants farcis de fromage frais aux herbes fraîches. Idéaux pour l'apéritif ou en entrée chaude.",
+      "tempsMinute": 45,
+      "imgLink": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+      "categorie": "Entrées",
+      "ingredients": [
+        { "nom": "Fromage frais", "quantite": "250g" },
+        { "nom": "Feuilles de brick", "quantite": "10" },
+        { "nom": "Œuf", "quantite": "1" },
+        { "nom": "Menthe et persil", "quantite": "1 bouquet" },
+        { "nom": "Poivre noir", "quantite": "1 c.c." },
+        { "nom": "Huile de friture", "quantite": "pour frire" }
+      ]
+    },
+    {
+      "titre": "Cornes de Gazelle",
+      "description": "Délicates pâtisseries en forme de croissant fourrées d'une pâte d'amandes parfumée à la fleur d'oranger et à la cannelle. Une douceur raffinée.",
+      "tempsMinute": 90,
+      "imgLink": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&q=80",
+      "categorie": "Desserts",
+      "ingredients": [
+        { "nom": "Farine", "quantite": "300g" },
+        { "nom": "Beurre", "quantite": "150g" },
+        { "nom": "Amandes en poudre", "quantite": "200g" },
+        { "nom": "Sucre glace", "quantite": "100g" },
+        { "nom": "Eau de fleur d'oranger", "quantite": "2 c.s." },
+        { "nom": "Cannelle", "quantite": "1 c.c." }
+      ]
+    },
+    {
+      "titre": "Thé à la Menthe",
+      "description": "Le thé vert marocain à la menthe fraîche, véritable symbole d'hospitalité et de convivialité. Préparé avec art selon la tradition ancestrale.",
+      "tempsMinute": 15,
+      "imgLink": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80",
+      "categorie": "Boissons",
+      "ingredients": [
+        { "nom": "Thé vert gunpowder", "quantite": "2 c.c." },
+        { "nom": "Menthe fraîche", "quantite": "1 bouquet" },
+        { "nom": "Sucre", "quantite": "4 c.s." },
+        { "nom": "Eau bouillante", "quantite": "1L" }
+      ]
+    },
+    {
+      "titre": "Méchoui d'Agneau",
+      "description": "Agneau entier rôti lentement au four, fondant à cœur et parfumé au beurre smen et aux épices. Le plat de fête par excellence pour les grandes occasions.",
+      "tempsMinute": 240,
+      "imgLink": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Gigot d'agneau", "quantite": "2kg" },
+        { "nom": "Beurre smen", "quantite": "100g" },
+        { "nom": "Cumin", "quantite": "2 c.c." },
+        { "nom": "Coriandre moulue", "quantite": "2 c.c." },
+        { "nom": "Ail", "quantite": "3 gousses" },
+        { "nom": "Sel", "quantite": "3 c.c." },
+        { "nom": "Poivre", "quantite": "1 c.c." }
+      ]
+    },
+    {
+      "titre": "Tarte aux Figues et Miel",
+      "description": "Tarte sablée dorée garnie de figues fraîches caramélisées au miel, parsemée d'amandes effilées et de cannelle. Une douceur automnale délicate.",
+      "tempsMinute": 60,
+      "imgLink": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&q=80",
+      "categorie": "Desserts",
+      "ingredients": [
+        { "nom": "Pâte sablée", "quantite": "1 rouleau" },
+        { "nom": "Figues fraîches", "quantite": "8" },
+        { "nom": "Miel", "quantite": "3 c.s." },
+        { "nom": "Amandes effilées", "quantite": "50g" },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Beurre", "quantite": "2 c.s." }
+      ]
+    },
+    {
+      "titre": "Pastilla au Pigeon",
+      "description": "La version traditionnelle et royale de la pastilla avec pigeon effiloché, herbes fraîches et amandes grillées dans des feuilles de brick croustillantes.",
+      "tempsMinute": 180,
+      "imgLink": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Pigeons", "quantite": "2" },
+        { "nom": "Amandes", "quantite": "300g" },
+        { "nom": "Œufs", "quantite": "8" },
+        { "nom": "Oignons", "quantite": "2" },
+        { "nom": "Safran", "quantite": "1 pincée" },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Sucre glace", "quantite": "2 c.s." },
+        { "nom": "Feuilles de brick", "quantite": "12" },
+        { "nom": "Beurre", "quantite": "80g" }
+      ]
+    },
+    {
+      "titre": "Loubia à la Marocaine",
+      "description": "Haricots blancs mijotés lentement dans une sauce tomate épicée avec de la viande de bœuf et des herbes fraîches. Un plat réconfortant et nourrissant.",
+      "tempsMinute": 90,
+      "imgLink": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Haricots blancs", "quantite": "400g" },
+        { "nom": "Viande de bœuf", "quantite": "300g" },
+        { "nom": "Tomates", "quantite": "2" },
+        { "nom": "Oignon", "quantite": "1" },
+        { "nom": "Ail", "quantite": "3 gousses" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Paprika", "quantite": "1 c.c." },
+        { "nom": "Persil et coriandre", "quantite": "1 bouquet" }
+      ]
+    },
+    {
+      "titre": "Khobz Maison",
+      "description": "Le pain rond marocain cuit au four, moelleux à l'intérieur et légèrement croustillant. La base de tout repas marocain traditionnel.",
+      "tempsMinute": 120,
+      "imgLink": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
+      "categorie": "Pains",
+      "ingredients": [
+        { "nom": "Farine", "quantite": "500g" },
+        { "nom": "Levure sèche", "quantite": "7g" },
+        { "nom": "Sel", "quantite": "1 c.c." },
+        { "nom": "Sucre", "quantite": "1 c.c." },
+        { "nom": "Eau tiède", "quantite": "300ml" },
+        { "nom": "Huile", "quantite": "1 c.s." },
+        { "nom": "Semoule fine", "quantite": "pour saupoudrer" }
+      ]
+    },
+    {
+      "titre": "Gâteau aux Dattes",
+      "description": "Moelleux fondant aux dattes de Medjool et noix hachées, parfumé à la cannelle et à la cardamome. Un dessert généreux et naturellement sucré.",
+      "tempsMinute": 60,
+      "imgLink": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80",
+      "categorie": "Desserts",
+      "ingredients": [
+        { "nom": "Dattes Medjool", "quantite": "300g" },
+        { "nom": "Beurre", "quantite": "150g" },
+        { "nom": "Sucre", "quantite": "150g" },
+        { "nom": "Œufs", "quantite": "3" },
+        { "nom": "Farine", "quantite": "200g" },
+        { "nom": "Noix hachées", "quantite": "100g" },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Cardamome", "quantite": "1/2 c.c." }
+      ]
+    },
+    {
+      "titre": "Crevettes à la Chermoula",
+      "description": "Crevettes fraîches marinées dans la chermoula maison puis poêlées à feu vif. Servies avec un filet de citron et de la coriandre ciselée.",
+      "tempsMinute": 25,
+      "imgLink": "https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=600&q=80",
+      "categorie": "Entrées",
+      "ingredients": [
+        { "nom": "Crevettes décortiquées", "quantite": "500g" },
+        { "nom": "Ail", "quantite": "3 gousses" },
+        { "nom": "Coriandre fraîche", "quantite": "1 bouquet" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Paprika", "quantite": "1 c.c." },
+        { "nom": "Huile d'olive", "quantite": "2 c.s." },
+        { "nom": "Jus de citron", "quantite": "1" }
+      ]
+    },
+    {
+      "titre": "Tajine Agneau aux Pruneaux",
+      "description": "Tajine sucré-salé avec de l'agneau fondant mijoté avec des pruneaux caramélisés au miel. Parsemé d'amandes grillées pour le croquant.",
+      "tempsMinute": 120,
+      "imgLink": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Agneau en morceaux", "quantite": "800g" },
+        { "nom": "Pruneaux", "quantite": "300g" },
+        { "nom": "Amandes", "quantite": "100g" },
+        { "nom": "Oignons", "quantite": "2" },
+        { "nom": "Miel", "quantite": "2 c.s." },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Gingembre", "quantite": "1 c.c." },
+        { "nom": "Safran", "quantite": "1 pincée" }
+      ]
+    },
+    {
+      "titre": "Sellou",
+      "description": "Mélange énergétique traditionnel de farine torréfiée, sésame grillé et amandes mixées, sucré au miel. Offert lors des naissances et des fêtes.",
+      "tempsMinute": 60,
+      "imgLink": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
+      "categorie": "Desserts",
+      "ingredients": [
+        { "nom": "Farine", "quantite": "1kg" },
+        { "nom": "Sésame", "quantite": "500g" },
+        { "nom": "Amandes", "quantite": "200g" },
+        { "nom": "Miel", "quantite": "200g" },
+        { "nom": "Beurre fondu", "quantite": "200g" },
+        { "nom": "Anis", "quantite": "1 c.c." },
+        { "nom": "Cannelle", "quantite": "1 c.c." }
+      ]
+    },
+    {
+      "titre": "Café Marocain aux Épices",
+      "description": "Café noir aromatisé à la cardamome, cannelle et eau de fleur d'oranger. Servi dans de petites tasses décorées, un rituel quotidien marocain.",
+      "tempsMinute": 10,
+      "imgLink": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80",
+      "categorie": "Boissons",
+      "ingredients": [
+        { "nom": "Café moulu", "quantite": "4 c.c." },
+        { "nom": "Cardamome", "quantite": "3 graines" },
+        { "nom": "Cannelle", "quantite": "1 bâton" },
+        { "nom": "Eau de fleur d'oranger", "quantite": "1 c.c." },
+        { "nom": "Sucre", "quantite": "selon goût" }
+      ]
+    },
+    {
+      "titre": "Salade de Carottes à la Chermoula",
+      "description": "Carottes cuites et assaisonnées d'ail, cumin et coriandre fraîche. Une entrée colorée, parfumée et économique, typique de la table marocaine.",
+      "tempsMinute": 25,
+      "imgLink": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=600&q=80",
+      "categorie": "Salades",
+      "ingredients": [
+        { "nom": "Carottes", "quantite": "6" },
+        { "nom": "Ail", "quantite": "3 gousses" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Paprika doux", "quantite": "1 c.c." },
+        { "nom": "Coriandre fraîche", "quantite": "1 bouquet" },
+        { "nom": "Jus de citron", "quantite": "1" },
+        { "nom": "Huile d'olive", "quantite": "2 c.s." }
+      ]
+    },
+    {
+      "titre": "Harissa Maison",
+      "description": "Sauce piquante aux piments rouges séchés, ail et épices. Indispensable pour relever couscous, grillades et sandwichs. Se conserve plusieurs semaines.",
+      "tempsMinute": 30,
+      "imgLink": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80",
+      "categorie": "Condiments",
+      "ingredients": [
+        { "nom": "Piments rouges séchés", "quantite": "200g" },
+        { "nom": "Ail", "quantite": "6 gousses" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Coriandre moulue", "quantite": "1 c.c." },
+        { "nom": "Sel", "quantite": "1 c.c." },
+        { "nom": "Huile d'olive", "quantite": "4 c.s." }
+      ]
+    },
+    {
+      "titre": "Brochettes Kefta Grillées",
+      "description": "Brochettes de viande hachée épicée façonnées et grillées sur charbon de bois. Parfumées au cumin et coriandre, servies avec du pain et de la harissa.",
+      "tempsMinute": 35,
+      "imgLink": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Viande hachée mixte", "quantite": "600g" },
+        { "nom": "Oignon", "quantite": "1" },
+        { "nom": "Cumin", "quantite": "2 c.c." },
+        { "nom": "Paprika", "quantite": "1 c.c." },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Persil et coriandre", "quantite": "1 bouquet" },
+        { "nom": "Sel et poivre", "quantite": "selon goût" }
+      ]
+    },
+    {
+      "titre": "Baghrir",
+      "description": "Les fameuses crêpes marocaines aux mille trous, légères et spongieuses. Imbibées de beurre fondu et de miel, elles fondent littéralement en bouche.",
+      "tempsMinute": 30,
+      "imgLink": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+      "categorie": "Petit-déjeuner",
+      "ingredients": [
+        { "nom": "Semoule fine", "quantite": "300g" },
+        { "nom": "Farine", "quantite": "100g" },
+        { "nom": "Levure boulangère", "quantite": "1 c.s." },
+        { "nom": "Bicarbonate", "quantite": "1/2 c.c." },
+        { "nom": "Sel", "quantite": "1 c.c." },
+        { "nom": "Eau tiède", "quantite": "500ml" },
+        { "nom": "Beurre et miel", "quantite": "pour servir" }
+      ]
+    },
+    {
+      "titre": "Zaalouk d'Aubergines",
+      "description": "Caviar d'aubergines marocain aux tomates concassées, ail et épices. Une entrée végétarienne savoureuse à déguster avec du pain marocain frais.",
+      "tempsMinute": 45,
+      "imgLink": "https://images.unsplash.com/photo-1615361200141-f45040f367be?w=600&q=80",
+      "categorie": "Salades",
+      "ingredients": [
+        { "nom": "Aubergines", "quantite": "3" },
+        { "nom": "Tomates", "quantite": "3" },
+        { "nom": "Ail", "quantite": "4 gousses" },
+        { "nom": "Cumin", "quantite": "1 c.c." },
+        { "nom": "Paprika", "quantite": "1 c.c." },
+        { "nom": "Coriandre et persil", "quantite": "1 bouquet" },
+        { "nom": "Huile d'olive", "quantite": "3 c.s." },
+        { "nom": "Jus de citron", "quantite": "1" }
+      ]
+    },
+    {
+      "titre": "M'hanncha",
+      "description": "Gâteau enroulé en spirale élégante avec des feuilles de brick et de la pâte d'amandes parfumée. Arrosé de miel et décoré de sucre glace.",
+      "tempsMinute": 90,
+      "imgLink": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&q=80",
+      "categorie": "Desserts",
+      "ingredients": [
+        { "nom": "Amandes", "quantite": "300g" },
+        { "nom": "Sucre", "quantite": "100g" },
+        { "nom": "Eau de fleur d'oranger", "quantite": "2 c.s." },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Feuilles de brick", "quantite": "10" },
+        { "nom": "Beurre fondu", "quantite": "80g" },
+        { "nom": "Miel", "quantite": "4 c.s." },
+        { "nom": "Sucre glace", "quantite": "pour décorer" }
+      ]
+    },
+    {
+      "titre": "Salade d'Oranges à la Cannelle",
+      "description": "Dessert léger et rafraîchissant d'oranges pelées à vif, parfumées à la cannelle et à l'eau de fleur d'oranger. Décoré de menthe fraîche et de dattes.",
+      "tempsMinute": 15,
+      "imgLink": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=600&q=80",
+      "categorie": "Desserts",
+      "ingredients": [
+        { "nom": "Oranges", "quantite": "6" },
+        { "nom": "Cannelle", "quantite": "1 c.c." },
+        { "nom": "Eau de fleur d'oranger", "quantite": "1 c.s." },
+        { "nom": "Menthe fraîche", "quantite": "quelques feuilles" },
+        { "nom": "Sucre", "quantite": "2 c.s." },
+        { "nom": "Dattes", "quantite": "quelques-unes" }
+      ]
+    },
+    {
+      "titre": "Couscous aux Sept Légumes",
+      "description": "Version végétarienne et colorée du couscous traditionnel avec sept légumes de saison dans un bouillon parfumé au curcuma et au ras el hanout.",
+      "tempsMinute": 90,
+      "imgLink": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=600&q=80",
+      "categorie": "Plats Principaux",
+      "ingredients": [
+        { "nom": "Semoule", "quantite": "500g" },
+        { "nom": "Carottes", "quantite": "2" },
+        { "nom": "Courgettes", "quantite": "2" },
+        { "nom": "Navet", "quantite": "1" },
+        { "nom": "Potiron", "quantite": "200g" },
+        { "nom": "Oignon", "quantite": "1" },
+        { "nom": "Pois chiches", "quantite": "200g" },
+        { "nom": "Curcuma", "quantite": "1 c.c." },
+        { "nom": "Ras el hanout", "quantite": "1 c.c." },
+        { "nom": "Beurre", "quantite": "50g" }
+      ]
+    }
+  ]
+}
